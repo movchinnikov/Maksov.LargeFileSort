@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maksov.LargeFileSort.SortApp", "Maksov.LargeFileSort.SortApp\Maksov.LargeFileSort.SortApp.csproj", "{746694CC-3F7A-4628-B166-6ABB7F4EECDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maksov.LargeFileSort.GenerateApp", "Maksov.LargeFileSort.GenerateApp\Maksov.LargeFileSort.GenerateApp.csproj", "{7778481D-BA90-4D97-89E3-6AAC136D5DBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generator", "Generator", "{D39C578F-AEAA-4A44-8157-7D040E200148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maksov.LargeFileSort.GenerateApp.Tests", "Maksov.LargeFileSort.GenerateApp.Tests\Maksov.LargeFileSort.GenerateApp.Tests.csproj", "{18311352-5908-48E6-945A-C5DA9758583A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sort", "Sort", "{711FD5D5-3C57-4244-8FCF-EE5B6A71E7B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maksov.LargeFileSort.SortApp.Tests", "Maksov.LargeFileSort.SortApp.Tests\Maksov.LargeFileSort.SortApp.Tests.csproj", "{331443EF-4918-4B36-9892-F0C5DA6CEC6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{746694CC-3F7A-4628-B166-6ABB7F4EECDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746694CC-3F7A-4628-B166-6ABB7F4EECDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746694CC-3F7A-4628-B166-6ABB7F4EECDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746694CC-3F7A-4628-B166-6ABB7F4EECDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7778481D-BA90-4D97-89E3-6AAC136D5DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7778481D-BA90-4D97-89E3-6AAC136D5DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7778481D-BA90-4D97-89E3-6AAC136D5DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7778481D-BA90-4D97-89E3-6AAC136D5DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18311352-5908-48E6-945A-C5DA9758583A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18311352-5908-48E6-945A-C5DA9758583A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18311352-5908-48E6-945A-C5DA9758583A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18311352-5908-48E6-945A-C5DA9758583A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331443EF-4918-4B36-9892-F0C5DA6CEC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331443EF-4918-4B36-9892-F0C5DA6CEC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331443EF-4918-4B36-9892-F0C5DA6CEC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331443EF-4918-4B36-9892-F0C5DA6CEC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7778481D-BA90-4D97-89E3-6AAC136D5DBA} = {D39C578F-AEAA-4A44-8157-7D040E200148}
+		{18311352-5908-48E6-945A-C5DA9758583A} = {D39C578F-AEAA-4A44-8157-7D040E200148}
+		{746694CC-3F7A-4628-B166-6ABB7F4EECDD} = {711FD5D5-3C57-4244-8FCF-EE5B6A71E7B3}
+		{331443EF-4918-4B36-9892-F0C5DA6CEC6E} = {711FD5D5-3C57-4244-8FCF-EE5B6A71E7B3}
+	EndGlobalSection
+EndGlobal
